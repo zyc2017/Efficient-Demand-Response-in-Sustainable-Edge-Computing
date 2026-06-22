@@ -69,8 +69,6 @@ DEV_NUM_PATH=envs/Dev_Num_N30.csv python main.py \
     --adj-path envs/Adj_Matrix_N30.csv --output output_N30
 ```
 
-## Demand-response models
-
 The grid compensation model is selectable via the `DR_MODEL` environment variable:
 
 ```bash
