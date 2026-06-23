@@ -251,9 +251,9 @@ if __name__ == "__main__":
     parser.add_argument('--ou_mu', default=0.0, type=float, help='noise mu')
     parser.add_argument('--output', default='output', type=str, help='')
     parser.add_argument('--init_w', default=0.1, type=float, help='')
-    parser.add_argument('--train_iter', default=1000000, type=int, help='train iters')
+    parser.add_argument('--train_iter', default=5000000, type=int, help='train iters')
     parser.add_argument('--epsilon', default=10000, type=int, help='linear decay of exploration policy')
-    parser.add_argument('--seed', default=1, type=int, help='')
+    parser.add_argument('--seed', default=2, type=int, help='')
     parser.add_argument('--adj-path', default='', type=str, help='Optional path to Adj_Matrix.csv')
     parser.add_argument('--save-every-episodes', default=50, type=int,
                         help='Save model checkpoint + zfilter every N episodes. Set 0 to disable periodic saves (only saves at end of training). CSV log files are always saved every episode regardless of this setting.')
